@@ -1,0 +1,3 @@
+GLOBAL MARKET STATUS
+This endpoint returns the current market status (open vs. closed) of major trading venues for equities, forex, and cryptocurrencies around the world.
+https://www.alphavantage.co/query?function=MARKET_STATUS&apikey=demo  

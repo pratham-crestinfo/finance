@@ -1,0 +1,20 @@
+.home_body{
+background-image: url('../../../src/assets/dotted-world-map-vector-1-removebg-preview.png');
+  background-size: 75%; /* Adjust as needed */
+  background-position: center; /* Adjust as needed */
+  background-repeat: no-repeat; /* Adjust as needed */
+  height: 100vh; /* Ensure the body takes the full viewport height */
+  margin: 0 ;
+}
+.temp_info{
+     position: relative;
+     top:40px;
+     border: 2px solid white
+}
+h4{
+  color: white;
+}
+h4:hover{
+  cursor:pointer;
+  text-decoration: underline;
+}

@@ -1,0 +1,5 @@
+<app-navbar></app-navbar>
+<div class="home_body">
+     <input [(ngModel)]="ac_input" (input)="onChangeInput()">
+     <h4 *ngFor="let item of data_suggestion_array" (click)="stock_choice(item.id)">{{item.cont}} ( {{ item.id}})</h4>
+</div>
